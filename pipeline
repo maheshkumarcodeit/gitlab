@@ -5,7 +5,7 @@ stages {
     stage('Checkout') {
        steps {
       // Checkout code from Git repository
-      git url: , branch: 'main'
+      git url:"https://github.com/maheshkumarcodeit/gitlab.git" , branch: 'main'
         }
     }
    stage('Build') {
